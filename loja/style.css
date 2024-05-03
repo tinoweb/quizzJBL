@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #fdfdfd; /* Um azul similar ao da imagem */
+    color: #121111;
+}
+
+header a {
+    color: #202020;
+}
+
+header form .form-control {
+    /* border-radius: 20px; */
+    border: 1px solid #a79f9f;
+    background-color: transparent;
+    color: #544e4e;
+}
+
+header form .form-control::placeholder {
+    color: #767676;
+}
+
+nav {
+    background-color: #767676; /* Fundo branco para o menu */
+}
+
+.nav-link {
+    color: #fcfcfc !important
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #ffffff; /* Sublinhado azul no item ativo */
+}
+
+.btn-outline-primary {
+    color: #767676;
+    border-color: #767676;
+}
+
+.btn-primary {
+    background-color: #767676;
+    color: #0D6EFD;
+    border-color: #767676;
+}
+
+/* Efeitos hover personalizados para links */
+.nav-link:hover {
+    color: #d1d1d1 !important;
+}
+
+/* Efeitos hover para botões */
+.btn-outline-primary:hover {
+    color: #101010 !important;
+    border-color: #101010;
+}
+
+
+svg {
+    width: 32;
+    fill: #737b97;
+}
